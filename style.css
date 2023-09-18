@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #252b33;
+    background-color: white;
 }
 
 li, a, button {
@@ -13,6 +13,7 @@ li, a, button {
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+    background-color: #252b33;
 }
 
 header{
@@ -20,15 +21,18 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: #252b33;
 }
 
 .logo{
     cursor: pointer;
 height: 150px;
+
 }
 
 .nav_links{
     list-style: none;
+    background-color: #252b33;
 }
 
 .nav_links li{
