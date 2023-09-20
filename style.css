@@ -11,13 +11,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Adjust the height as needed */
-    background-image: url('/images/Lake.jpg'); /* Replace with your image URL */
+    height: 100vh; 
+    background-image: url('/images/Lake.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
 }
-
 li, .a1, .button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -26,7 +25,6 @@ li, .a1, .button {
     text-decoration: none;
     background-color: #252b33;
 }
-
 header{
     display: flex;
     justify-content: space-between;
@@ -34,31 +32,24 @@ header{
     padding: 0px 10%;
     background-color: #252b33;
 }
-
 .logo{
     cursor: pointer;
 height: 150px;
-
 }
-
 .nav_links{
     list-style: none;
     background-color: #252b33;
 }
-
 .nav_links li{
     display: inline-block;
     padding: 0px 20px;
 }
-
 .nav_links li a{
     transition: all 0.3s ease 0s;
 }
-
 .nav_links li a:hover{
     color: #0088a9;
 }
-
 .button{
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
@@ -139,7 +130,6 @@ transform: translateX(-5px) translateY(-5px);
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
-    
 }
 .button2:hover{
    background-color: rgb(122, 148, 159);
