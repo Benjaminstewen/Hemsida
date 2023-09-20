@@ -142,3 +142,6 @@ transform: translateX(-5px) translateY(-5px);
 .a2 {
     margin: 10px;
 }
+html{
+    scroll-behavior: smooth;
+}
