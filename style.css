@@ -145,3 +145,20 @@ transform: translateX(-5px) translateY(-5px);
 html{
     scroll-behavior: smooth;
 }
+.vad{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white
+    ;
+}
+.backgroundimage2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url('/images/Lake.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
