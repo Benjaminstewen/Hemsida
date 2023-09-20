@@ -132,7 +132,7 @@ transform: translateX(-5px) translateY(-5px);
     text-decoration: none;
 }
 .button2:hover{
-   background-color: rgb(122, 148, 159);
+    backdrop-filter: blur(5px)
 }
 .a2{
     background-color: transparent;
