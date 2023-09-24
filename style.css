@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -238,4 +237,63 @@ html{
     background-size: cover;
     background-position: center;
     text-align: center;
+}
+:root{
+    --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 182);
+    --pink: rgb(244, 143, 177);
+    --darkgreen: rgb(0,100,0);
+    --green: rgb(124,252,0);
+    --lightgreen: rgb(144,238,144);
+    --yellow: rgb(255,255,0);
+    --lightyellow: rgb(255,255,224);
+    --peachpuff: rgb(255,218,185);
+    --greenyellow: rgb(173,255,47);
+}
+
+@keyframes background-pan{
+    from{
+        background-position: 0% center;
+    }
+    to{
+        background-position: -200% center;
+    }
+}
+h1{
+color: white;
+font-family: "Montserrat", sans-serif;
+font-size: clamp(2em, 2vw, 4em);
+font-weight: 400;
+margin: 0px;
+padding: 20px;
+text-align: center;
+}
+h1 > .magic{
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+        to right,
+        var(--purple),
+        var(--violet),
+        var(--pink),
+        var(--purple)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+h1 > .magic2{
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(
+        to right,
+        var(--yellow),
+        var(--lightyellow),
+        var(--peachpuff),
+        var(--greenyellow),
+        var(--yellow)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
 }
