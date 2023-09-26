@@ -103,6 +103,7 @@
     outline-color: #fff;
     width: 330px;
     height: 72px;
+    font-size: 16px;
     padding: 15px;
     resize:none;
     border-radius: 25px;
@@ -116,7 +117,7 @@
     font-family: "Poppins", sans-serif;
     font-size: 14.5px;
 }
-#email:focus {
+#email1:focus {
   border: 3px solid #fff;
   outline: none; 
 }

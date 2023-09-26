@@ -28,26 +28,29 @@
     </header>
     <div class="backgroundimage" id="b1">
         <div class="wrapper">
-            <form action="#" method="post">
+            <form action="https://formsubmit.co/benjaminstewen@gmail.com" method="post">
                 <h1>Kontakta oss</h1>
                 <div class="input-box">
-                    <input type="text" placeholder="Namn" required id="namn">
+                    <input type="text" placeholder="Namn" required id="namn" name="text">
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-box">
-                    <input type="phone" placeholder="Telefonnummer" required id="phone">
+                    <input type="phone" placeholder="Telefonnummer" required id="phone" name="phone">
                     <i class='bx bx-mobile'></i>
                 </div>
                 <div class="input-box">
-                    <input type="email" placeholder="Mail" id="email" required>
+                    <input type="email" placeholder="Mail" id="email1" required name="email">
                     <i class='bx bx-mail-send'></i>
                 </div>
                 
                 <div class="input-box" id="input-box2">
-                    <textarea placeholder="Kommentar" id="textarea"></textarea>
+                    <textarea placeholder="Kommentar" id="textarea" name="textarea"></textarea>
                     <i class='bx bx-chat'></i>
                 </div>
                 <button type="submit" class="btn">Skicka</button>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="box">
             </form>
         </div>
     </div>
