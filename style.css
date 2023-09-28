@@ -157,7 +157,7 @@ html{
     justify-content: center;
     align-items: center;
     height: 100vh; 
-    background-image: url('images/backgrund1.jpeg');
+    background-image: url('./images/backgrund1.jpeg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -218,7 +218,7 @@ html{
     justify-content: center;
     align-items: center;
     height: 100vh; 
-    background-image: url('images/Lake.jpg');
+    background-image: url('images/Lake.JPG');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -233,7 +233,7 @@ html{
     justify-content: center;
     align-items: center;
     height: 100vh; 
-    background-image: url('images/backgrund3.jpeg');
+    background-image: url('./images/backgrund3.jpeg');
     background-size: cover;
     background-position: center;
     text-align: center;
