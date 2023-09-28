@@ -218,7 +218,7 @@ html{
     justify-content: center;
     align-items: center;
     height: 100vh; 
-    background-image: url('images/Lake.JPG');
+    background-image: url('./images/Lake.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
