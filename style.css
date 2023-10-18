@@ -297,3 +297,30 @@ h1 > .magic2{
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
 }
+@media (max-width: 768px) {
+            .text {
+                font-size: 1.5em;
+            }
+
+            .text2 {
+                font-size: 1.2em;
+            }
+            .mail, .tiktok, .facebook, .instagram {
+                display: none;
+            }
+            .button{
+                display: none;
+            }
+            .end{
+                margin-left: 20px;
+            }
+            .nav_links {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .nav_links li {
+                margin:7px 0;
+                text-decoration: underline;
+            }
+        }
