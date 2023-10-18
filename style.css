@@ -298,11 +298,10 @@ h1 > .magic2{
     white-space: nowrap;
 }
 @media (max-width: 768px) {
-            .text {
+            .text{
                 font-size: 1.5em;
             }
-
-            .text2 {
+            .text2{
                 font-size: 1.2em;
             }
             .mail, .tiktok, .facebook, .instagram {
@@ -314,12 +313,12 @@ h1 > .magic2{
             .end{
                 margin-left: 20px;
             }
-            .nav_links {
+            .nav_links{
                 flex-direction: column;
                 text-align: center;
             }
 
-            .nav_links li {
+            .nav_links li{
                 margin:7px 0;
                 text-decoration: underline;
             }
