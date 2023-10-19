@@ -304,9 +304,6 @@ h1 > .magic2{
             .text2{
                 font-size: 1.2em;
             }
-            .mail, .tiktok, .facebook, .instagram {
-                display: none;
-            }
             .button{
                 display: none;
             }
@@ -322,4 +319,17 @@ h1 > .magic2{
                 margin:7px 0;
                 text-decoration: underline;
             }
+            .end{
+                display: none;
+            }
+            .instagram, .facebook, .tiktok, .mail{
+                margin: 10px;
+            }
+            #logo2{
+                display: none;
+            }
+            #footer1{
+                height: 120px;
+            }
         }
+
