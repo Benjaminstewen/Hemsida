@@ -24,6 +24,9 @@ li, .a1, .button {
     text-decoration: none;
     background-color: #252b33;
 }
+.a1{
+    text-decoration: underline;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -334,4 +337,4 @@ h1 > .magic2{
             #contact{
                 width: 345px;
         }
-    }
+    }  
